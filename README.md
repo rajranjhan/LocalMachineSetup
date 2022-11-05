@@ -10,14 +10,16 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 2. Nerd-Font
 
 # install 'hack' font using Homebrew
+```
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
+```
 
 3. Starship prompt
 # install starship
 brew install starship
 
-# ~/.zshrc
+# code ~/.zshrc
 
 eval "$(starship init zsh)"
 
