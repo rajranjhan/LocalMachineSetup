@@ -57,3 +57,7 @@ plugins=(
 
 brew install tmux
 
+8.  Install Fig for autocompletion
+
+brew install fig
+
